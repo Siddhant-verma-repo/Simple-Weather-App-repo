@@ -1,0 +1,77 @@
+/* body making flex and making it into mid */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: coral;
+    background-image: url('https://assets.wallpapersin4k.org/uploads/2017/04/Beautiful-Weather-Wallpapers-24.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+/* container block coloring */
+.container{
+background-color: #649bacd0;
+color: white;
+padding: 2em;
+margin: 1em;
+border-radius: 20px;
+width: 100%;
+max-width: 320px;
+}
+.city{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: monospace;
+    color: black;
+}
+.searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox button{
+
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 4vh;
+
+}
+.searchbox button:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+h1.temp{
+    margin: 0;
+    margin-bottom: .5em;
+}
+.description{
+    text-transform: capitalize;
+    margin-left: 1em;
+    font-family: system-ui;
+    font-size: 1.3rem;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    margin: 1em -1em;
+}
+.searchbox input{
+    border-radius: 20px;
+    padding: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    /* to make border go away */
+    border: none;
+}
+.humidity, .wind{
+    font-size: 2rem;
+    margin: .4em 0px;
+}
